@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tejas Chougule - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0077b6;
+      --secondary: #023e8a;
+      --bg-light: #f0f4f8;
+      --bg-dark: #1a1a1a;
+      --text-light: #ffffff;
+      --text-dark: #212529;
+      --card-light: #ffffff;
+      --card-dark: #2a2a2a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      transition: background-color 0.4s, color 0.4s;
+    }
+
+    header {
+      background-color: var(--secondary);
+      color: white;
+      padding: 60px 20px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      background: var(--card-light);
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      color: var(--secondary);
+      margin-top: 20px;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    a {
+      color: var(--primary);
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .project {
+      margin-bottom: 25px;
+    }
+
+    .project a {
+      display: inline-block;
+      margin-top: 5px;
+      background-color: var(--primary);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .project a:hover {
+      background-color: var(--secondary);
+    }
+
+    .contact p {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #e0e0e0;
+      color: #444;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tejas Sanjay Chougule</h1>
+    <p>Computer Science Student | Web Developer </p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m a third-year Computer Science student at Walchand College of Engineering, Sangli. 
+        I’m really passionate about exploring how technology can be used to solve practical problems, and I enjoy learning by doing. I have a strong interest in areas like web development and database management, and I’ve been working on improving my skills in Python, Java, React, Node.js, and database management.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Languages: Java, Python, C/C++</li>
+        <li>Web Development: React, Node.js, Express.js, HTML, CSS</li>
+        <li>Databases: MongoDB, SQL, Neo4j</li>
+      </ul>
+
+      <h2>Interests</h2>
+      <ol>
+        <li> Web Development</li>
+        <li>UI design using Swift</li>
+        <li>Database management</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Future Campus- College Predictor Platform</h3>
+        <p>A web-based platform that predicts college admissions based on CET, JEE, NEET, and GATE scores.
+            Built using Java, React, Node.js, and MongoDB with a responsive UI via Tailwind CSS. 
+            Enabled real-time suggestions to assist students and parents in decision-making.</p>
+        <a href="https://github.com/TSC2004/future-campus.git"> View Project </a>
+        </div>
+
+      <div class="project">
+            <h3>Health Buddy- Predictive Healthcare System</h3>
+            <p>Developed a disease prediction system using Random Forest based on user symptoms. 
+                Included a mental health chatbot using Gemini API and secure user authentication with Firebase. 
+                Built with React.js,  and MongoDB Atlas.</p>
+        </div>
+
+      <div class="project">
+        <h3>Programming Language-3 Course Information</h3>
+        <p>Developed a comprehensive website to present detailed information about the Programming Language-3 (PL3) course. 
+            The site includes the course syllabus, instructor details, contact information, and an interactive feedback form for students. 
+            This project enhances communication and transparency for academic courses and was built using HTML, CSS, and basic form handling in JavaScript.</p>
+        <a href="https://github.com/TSC2004/PL3.git" >View Project</a>
+        </div>
+      
+    </section>
+
+    <section class="contact">
+      <h2>Contact Information</h2>
+      <p>Email: tejassanjaychougule234@gmail.com</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/tejas-sanjay-chougule" >Tejas Chougule</a></p>
+      <p>GitHub: <a href="https://github.com/TSC2004" >github.com/TSC2004</a></p>
+    </section>
+  </main>
+</body>
+</html>
